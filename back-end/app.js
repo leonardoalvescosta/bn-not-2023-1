@@ -33,4 +33,10 @@ app.use('/customers', customersRouter)
 const salesRouter = require('./routes/sales')
 app.use('/sales', salesRouter)
 
+const supplierRouter = require('./routes/suppliers')
+app.use('/suppliers', supplierRouter)
+
+const productsRouter = require('./routes/products')
+app.use('/products', productsRouter)
+
 module.exports = app;
